@@ -1,0 +1,1 @@
+quesao6: Se o num for igual a 10. Expressao de condição.
