@@ -5,7 +5,7 @@
 int main()
 {
 	int i=0, numero, cont=0;
-	for(i=2; cont == 5; i++)
+	for(i=1; cont == 5; i++)
 	{
 		numero = i%3;
 		if(numero == 0)
