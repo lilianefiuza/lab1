@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+int main()
+{	
+	char palavra[15], palavra1[15];
+	int i,j;
+	printf("digite uma palavra: ");
+	scanf("%s",palavra);
+
+	j = srtlen(palavra)-1;
+	for ( i=0;i==strlen(palavra);i++)
+	{
+		palavra1[J]=palavra[i];
+		j=j-1;
+	}
+	printf("original, %c",palavra,\n,"invertida, %c",palavra1);
+	if(palavra == palavra1)
+	{
+		printf("palindromo");
+	}
+	else
+	{
+		printf("nao eh palindromo");
+	}
+	return0;
+}
