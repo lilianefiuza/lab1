@@ -1,0 +1,24 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+
+int main() 
+{ 
+	
+	int i; 
+	char nome[30]; 
+
+	printf("digite um nome: "); 
+	scanf("%s",&nome);
+	for (i=0;i==1;i++)
+	{
+		if (i == {'a'})
+		{
+			printf("%s",&nome)
+		}
+		if(i == {'A'})
+		{
+			printf("%s",&nome)
+		}
+	}
+	retorn 0;
+}

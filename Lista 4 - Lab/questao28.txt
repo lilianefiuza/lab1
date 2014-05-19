@@ -1,0 +1,27 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+
+int main() 
+{ 
+	
+	int i,j,idade[2]; 
+	char nome[100],sexo[10],; 
+	printf("digite seu nome: "); 
+	scanf("%c",nome); 
+	printf("digite seu sexo: "); 
+	scanf("%c",sexo);
+	printf("digite sua idade: "); 
+	scanf("%d",idade);
+	if (sexo == 'feminino')
+	{
+		if(idade <25)
+		{
+			printf("%c",nome,"ACEITA");
+		}
+	}
+	else
+	{	
+		printf("NAO ACEITA");
+	}
+	RETURN 0;
+}
