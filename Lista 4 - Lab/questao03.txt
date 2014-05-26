@@ -2,6 +2,7 @@
 #include<conio.h>
 #include<string.h>
 
+<<<<<<< HEAD
 int main()
 {	
 	char frase[30];
@@ -11,3 +12,19 @@ int main()
 	quantidade= strlen(frase);
 	printf("%d",quatidade);
 }
+=======
+void quantidade(char frase)
+{
+	char frase[30];
+	int i,quantidade;
+	quantidade= strlen(frase);
+}
+
+
+int main()
+{	
+	printf("digite uma frase: ");
+	scanf("%s",frase);
+	printf("%d",quantidade);
+}
+>>>>>>> a2bf6ac67425e535778f37022109fc398a919186

@@ -2,6 +2,13 @@
 #include<conio.h>
 #include<string.h>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> a2bf6ac67425e535778f37022109fc398a919186
 int main()
 {	
 	char string1[30],string2[30];
@@ -36,4 +43,8 @@ int main()
 		printf("nao sao iguais");
 	}
 	return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a2bf6ac67425e535778f37022109fc398a919186
